@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Encode+Sans:wght@400;700&family=Manrope:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/*Style untuk class gede*/
+.gede {
+	padding: 5px;
+	background-color: #808080;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.gede h1 {
+	color: white;
+	font-size: 40px;
+}
+
+.gede p {
+	color: white;
+	font-weight: 500;
+}
+
+header {
+	display: inline;
+}
+
+/*Style untuk nav*/
+
+nav {
+	background-color: #d7cbb2;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav ul li {
+	display: inline;
+	padding: 20px;
+	font-weight: bold;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 19;
+	font-weight: 700;
+	color: black;
+}
+
+nav ul li a:hover {
+	font-weight: bold;
+	color: white;
+	background-color: #808080;
+}
+
+/*Style untuk content*/
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1200px;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+.container img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.container h3 {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.container p {
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+.container p a {
+	text-decoration: none;
+}
+
+.container p a:hover {
+	font-weight: bold;
+}
+
+.satu {
+	flex-grow: 1;
+}
+
+.dua {
+	flex-grow: 1;
+}
+
+.tiga {
+	flex-grow: 1;
+}
+
+.empat {
+	flex-grow: 1;
+}
+
+.lima {
+	flex-grow: 1;
+}
+
+.enam {
+	flex-grow: 1;
+}
+
+/*Style untuk Card*/
+.card {
+	box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.4);
+	width: 350px;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+/*Responsive Web*/
+
+@media screen and (max-width: 800px) {
+	.container {
+		width: 100%;
+	}
+
+	header nav {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 100%;
+	}
+}
+
+/*Style untuk Footer*/
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #808080;
+}
+
+footer p{
+	font-size: 12px;
+	margin: 5px;
+}
+
+.nav-footer ul li{
+	display: inline;
+	margin: 20px;
+}
+
+.nav-footer li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-footer li a:hover {
+	font-weight: bold;
+}
+
